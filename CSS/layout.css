@@ -1,0 +1,53 @@
+.nav-list ul {
+      list-style-type: none; 
+   
+
+}
+
+.nav-list ul  li {   
+    display:inline-flex; 
+    padding: 10px;
+    margin: auto;
+}
+
+#footer{   
+ 
+ margin: auto;
+background-color: grey;
+border: 50% solid greenyellow;
+
+}
+#footer p { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:3vw;
+    padding: auto;
+    color: gold;} 
+
+    .hearder{  
+
+background: blueviolet;
+
+}
+
+    .hearder a {  
+        font-size: 3vw;
+        color: cornsilk;
+        
+            }
+     .contaniner-SocialSharing{ 
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-template-rows:  4vw ;
+      grid-gap: 30px;
+      background-color: darkgray;
+     text-align: center;
+     justify-content:  space-around;
+ }
+
+
+.section-social{  
+    padding-top: 5%;
+}
+
+
+            

@@ -1,0 +1,91 @@
+.container{ 
+display: grid;
+width: 100%;
+background-color: rgb(183, 0, 255);
+grid-template-columns:300px , 300px , 300px;
+grid-template-rows: 300px , 300px;
+grid-gap: 15px;
+grid-template-areas: 
+"top top top"
+ "bottomLeft bettomRight midele ";
+  justify-content: center;
+ border: 3px solid green;
+}
+
+.box{  
+display:flex;
+/* align-items: center; */
+flex-direction: column;
+justify-content: center;
+width:400px;
+border:2px solid red;
+padding: 2px;
+}
+.button { display: flex;
+ justify-content: center;
+
+}
+
+.button > button { 
+    width: 50%;
+    color:white;
+    background-color: goldenrod;
+
+}
+
+
+@media screen and (max-width: 770px)
+{
+ .container {           
+    
+    grid-template-columns:1200px,1200px;
+     
+    grid-template-areas: 
+    "top top";
+     
+}
+
+.box{  
+        
+width:300px;
+padding-left: 25px;
+
+ 
+}
+ .button > .button
+ { width: 40%s;
+    font-size: 2em;
+}
+
+.nav-list ul  li {
+    font-size: 1.8em;   
+     padding: 2%;
+    
+}
+
+
+}
+
+@media screen and (max-width: 420px)
+{
+ .container {           
+
+    grid-template-columns:400px ;
+    grid-template-rows:350px;
+    grid-template-areas: 
+    "top"
+    "bottomLeft";
+    text-align: center;
+  justify-content: center;
+}
+
+.box{         
+width:180px;
+padding-left: 25px;
+margin: auto;
+}
+ .button > .button{ width: 30%s;}
+
+}
+
+
