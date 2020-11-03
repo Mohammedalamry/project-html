@@ -21,10 +21,13 @@ width:400px;
 border:2px solid red;
 padding: 2px;
 }
+
+
 .button { display: flex;
  justify-content: center;
 
 }
+
 
 .button > button { 
     width: 50%;

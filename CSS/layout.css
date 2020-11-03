@@ -17,7 +17,7 @@ background-color: grey;
 border: 50% solid greenyellow;
 
 }
-#footer p { 
+#footer .p-footer { 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:3vw;
     padding: auto;
@@ -29,7 +29,7 @@ background: blueviolet;
 
 }
 
-    .hearder a {  
+    .hearder .a-header {  
         font-size: 3vw;
         color: cornsilk;
         
